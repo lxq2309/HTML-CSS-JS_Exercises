@@ -1,0 +1,51 @@
+body {
+	margin: 0;
+}
+
+#header {
+	box-sizing: border-box;
+	width: 100%;
+	position: relative;
+	height: 100px;
+	padding: 0 10%;
+}
+
+#header .left {
+	float: left;
+	width: 70%;
+	background-image: url('../Images/logo_bg.gif');
+}
+
+#header .right {
+	float: left;
+	width: 30%;
+}
+
+#header .bottom-bar {
+	width: 40%;
+	height: 2px;
+	background-color: red;
+	position: absolute;
+	bottom: 0;
+	left: 50%;
+	transform: translateX(-50%);
+}
+
+#main-content {
+	 position: relative;
+}
+
+#main-content form {
+	position: absolute;
+	left: 50%;
+	transform: translateX(-50%);
+}
+
+#main-content form table td:nth-child(1) {
+	text-align: right;
+	vertical-align: top;
+}
+
+#main-content h1 {
+	text-transform: uppercase;
+}

@@ -1,0 +1,48 @@
+body {
+	color: #6b696b;
+	font-family: Arial;
+	font-weight: 200;
+}
+
+header {
+	text-align: center;
+}
+
+p {
+	width: 50%;
+}
+
+h3, p {
+	margin: 0;
+}
+
+h3 img {
+	vertical-align: middle;
+}
+
+h3.ask {
+	color: #5aa6e7;
+}
+
+h3.info {
+	color: #4ab69c;
+}
+
+.full-width {
+	width: 100%;
+}
+
+a {
+	color: #4292d6;
+	font-weight: bold;
+}
+
+p {
+	margin-bottom: 20px;
+}
+
+footer {
+	text-align: center;
+	border-top: 1px solid #3165ce;
+	padding-top: 20px;
+}
